@@ -9,14 +9,14 @@
       rel="stylesheet"
     />
   </head>
-  <body class="min-h-screen bg-gray-100">
+  <body class="min-h-screen bg-gray-100 text-sm">
     <header class="bg-white border-b">
       <div class="container mx-auto" style="max-width: 970px">
         <div class="flex justify-between items-center">
           <div class="flex items-center h-10">
-            <a href="" class="block">
+            <a href="" class="block w-40 mr-2">
               <svg
-                class="w-4"
+                class="h-6"
                 fill="none"
                 viewBox="0 0 274 48"
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,29 @@
                 </g>
               </svg>
             </a>
-            <div class="">Search</div>
+            <div class="w-56">
+              <div class="relative">
+                <input
+                  type="text"
+                  class="h-8 rounded-lg px-4 pl-8 bg-gray-100 focus:outline-none placeholder-gray-500"
+                  placeholder="Поиск"
+                />
+                <div class="absolute top-0 left-0 h-full w-4 flex justify-center items-center">
+                  <svg
+                  class="text-gray-400"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
             <div class="">Notification</div>
             <div class="">Player</div>
           </div>
